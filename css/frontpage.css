@@ -1,0 +1,227 @@
+html,
+body {
+    height: 100%
+}
+
+body {
+    no-repeat: center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.container {
+    min-height: 100%;
+    overflow: hidden
+}
+
+a:link {
+    color: black
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: black
+}
+
+a:active {
+    color: black
+}
+
+.post {
+    width: 250px;
+    min-height: 330px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    border: 2px;
+    background-color: #F7F7F7;
+    border-radius: 5px
+}
+
+.post h3 {
+    margin: 5px;
+    font-size: 100%;
+    text-align: center
+}
+
+.post h4 {
+    margin: 0px;
+    font-size: 85%;
+    text-align: center
+}
+
+.post img {
+    margin: 0px;
+    padding: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 245px
+}
+
+/*PROJECT SHOWROOM*/
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    align-content: center;
+}
+.projects > * {
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.2s ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.projects > *:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+    transform: scale(1.02);
+}
+.projects img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.project-links {
+    display: flex;
+    justify-content: space-between;
+}
+.projects h3 {
+    margin: 5px;
+    font-size: 100%;
+    text-align: center
+}
+
+.projects h4 {
+    margin: 0px;
+    font-size: 85%;
+    text-align: center
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects div {
+    flex: 45%;
+}
+
+/* OPENER VIDEO */
+section#opener {
+    background: #1f1f1f;
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+section#opener article {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 5
+}
+
+section#opener .bg,
+section#opener .bg-video {
+    opacity: .7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute
+}
+
+section#opener .bg {
+    background-size: cover;
+    background-position: center center;
+    height: 120%;
+    z-index: 0
+}
+
+section#opener .bg-video {
+    height: 100%
+}
+
+section#opener .bg-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0
+}
+
+section#opener p.hero--third-level-header {
+    margin-top: 1em
+}
+
+section#opener.large {
+    min-height: 580px
+}
+
+section#opener.large p:after {
+    content: "";
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin: 20px auto;
+    width: 200px
+}
+section#opener.large p {
+    font-family: 'Verlag A', 'Verlag B';
+    font-weight: 700;
+    font-style: normal;
+    /*text-transform: uppercase;*/
+    margin-top: 8em;
+    font-size: 2.1em;
+    letter-spacing: .09em;
+    line-height: 1.6em
+}
+
+section#opener.large h6 {
+    font-family: 'Verlag A', 'Verlag B';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    letter-spacing: .09em;
+    line-height: 1.6em
+}
+
+section#opener.large h1 {
+    font-size: 10.8em;
+    font-family: 'Knockout 47 A', 'Knockout 47 B';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .13em
+}
+
+section#opener topicon {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: right;
+    width: 100%;
+    z-index: 5
+}
+.fa {
+    font-size: 25px;
+    color:white;
+}

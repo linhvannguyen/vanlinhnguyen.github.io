@@ -26,7 +26,7 @@
 		<link href="./css/sticky-footer-navbar.css" rel="stylesheet">
 
 		<link href="./css/default.css" rel="stylesheet">
-		<link href="./css/index.css" rel="stylesheet">
+		<link href="./css/frontpage.css" rel="stylesheet">
 
 		<link href="./css/inlineDisqussions.css" rel="stylesheet">
 
@@ -52,99 +52,92 @@
 	</head>
 
 	<body>
-		<div id="wrap">
-			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-				<div class="container">
-					<!--Toggle header for mobile-->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand active" href="./" id="home">Letstat</a>
-					</div>
-					<!--normal header-->
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="./"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-							<li><a href="./blog.html"><span class="glyphicon glyphicon-book"></span>  Blog</a></li>
-							<li><a href="./about.html"><span class="glyphicon glyphicon-user"></span>  About</a></li>
-						</ul>
-					</div><!--/.nav-collapse -->
+		<div id="scroller">
+			<section id="opener" class="large">
+				<!--<div class="navbar">-->
+					<!--<nav class="navbar navbar-default navbar-fixed-top">-->
+						<!--<div class="container-fluid">-->
+							<!--<div class="navbar-header">-->
+								<!--<a class="navbar-brand" href="#">Letstat</a>-->
+							<!--</div>-->
+							<!--<ul class="nav navbar-nav navbar-right">-->
+								<!--<li><a href="./"><span class="glyphicon glyphicon-home"></span>  Home</a></li>-->
+								<!--<li><a href="./blog.html"><span class="glyphicon glyphicon-book"></span>  Blog</a></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+					<!--</nav>-->
+				<!--</div>-->
+				<article>
+					<p>Hello, I'm #vanlinhnguyen</p>
+					<h6>PhD, Data Science Engineer, Aeronautical Engineer, AI enthusiast</h6>
+					<h6>
+						<a type="button" href="https://www.linkedin.com/in/van-linh-nguyen-phd-88685b9a" class="btn-floating btn-lg btn-li"><i class="fa fa-linkedin"></i></a>
+						<a type="button" href="mailto:linh.van.nguyen@hotmail.com" class="btn-floating btn-lg btn-email"><i class="fa fa-envelope"></i></a>
+						<a type="button" href="https://github.com/vanlinhnguyen" class="btn-floating btn-lg btn-git"><i class="fa fa-github"></i></a>
+					</h6>
+				</article>
+				<div class="bg-video">
+					<video preload="auto" autoplay loop>
+						<source src="./images/video/water.mp4" type="video/mp4" />
+					</video>
 				</div>
-			</nav>
-
-			<div class="container">
-				<div class="col-sm-10 col-sm-offset-1" id="indexwrapper">
-					<h2>Exciting things for 2018</h2>
+			</section>
+			<div align="center">
+				<div class="projects">
 					<a href="./posts/2018.04-RNN/index.html">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-bottom: 5%;" src="images/post-covers/lstm.png">
-							<h3 style="margin-top:0px; font-size:95%;">Recurent Neural Network</h3>
-							<h4>Some very cool projects using sequence models</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/lstm.png">
+						<h3 style="margin-top:0px; font-size:95%;">Recurent Neural Network</h3>
+						<h4>Some very cool projects using sequence models</h4>
+					</a>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/gpu.png">
+						<h3 style="margin-top:0px; font-size:95%;">Google Colab and more</h3>
+						<h4>Free GPU and how to use it </h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/gpu.png">
-							<h3 style="margin-top:0px; font-size:95%;">Google Colab and more</h3>
-							<h4>Free GPU and how to use it</h4>
-						</div>
-					</a>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/deeplearning.jpg">
+						<!--<div class="post">-->
+							<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/deeplearning.jpg">
 							<h3 style="margin-top:0px; font-size:95%;">Machine Learning papers</h3>
 							<h4>Lastest research milestones and take-aways</h4>
-						</div>
+						<!--</div>-->
 					</a>
-					<br style="clear:left;">
-					<h2>... and 2019</h2>
+				</div>
+			</div>
+			<div align="center">
+				<div class="projects">
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
-					</a>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
-					</a>
-					<br style="clear:left;">
-					<h2>... and the rest</h2>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/100things_2.jpg">
-							<h3 style="margin-top:0px; font-size:95%;">List 100 things I want do before I die</h3>
-							<h4></h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/100things_2.jpg">
-							<h3 style="margin-top:0px; font-size:95%;">List 100 things I want do before Lucas gets married</h3>
-							<h4></h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
+						<h4>Some very cool stuffs</h4>
+					</a>
+				</div>
+			</div>
+			<div align="center">
+				<div class="projects">
+					<a href="#">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/100things_2.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Things to do before I die</h3>
+						<h4></h4>
+					</a>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/100things_2.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Things to do before Lucas gets married</h3>
+						<h4></h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/100things_2.jpg">
-							<h3 style="margin-top:0px; font-size:95%;">Things I want learn</h3>
-							<h4></h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/100things_2.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Things to learn</h3>
+						<h4></h4>
 					</a>
 				</div>
 			</div>
