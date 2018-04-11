@@ -26,9 +26,10 @@
 		<link href="./css/sticky-footer-navbar.css" rel="stylesheet">
 
 		<link href="./css/default.css" rel="stylesheet">
-		<link href="./css/index.css" rel="stylesheet">
+		<!--<link href="./css/index.css" rel="stylesheet">-->
+		<link href="./css/frontpage.css" rel="stylesheet">
 
-		<link href="./css/inlineDisqussions.css" rel="stylesheet">
+		<link href="css/unused/inlineDisqussions.css" rel="stylesheet">
 
 		<!--Highlight-->
 		<link href="./highlight/styles/github.css" rel="stylesheet">
@@ -52,129 +53,119 @@
 	</head>
 
 	<body>
-		<div id="wrap">
-			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-				<div class="container">
-					<!--Toggle header for mobile-->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand active" href="./" id="home">Letstat</a>
-					</div>
-					<!--normal header-->
-					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="./"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-							<li><a href="./blog.html"><span class="glyphicon glyphicon-book"></span>  Blog</a></li>
-							<li><a href="./about.html"><span class="glyphicon glyphicon-user"></span>  About</a></li>
-						</ul>
-					</div><!--/.nav-collapse -->
+		<div class="navbar">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="./"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
 				</div>
 			</nav>
-
-			<div class="container">
-				<div class="col-sm-10 col-sm-offset-1" id="indexwrapper">
-					<h2>Machine Learning Stuffs!</h2>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+		</div>
+		<div id="wrap">
+			<div align="center">
+				<h2>Recent exiting things</h2>
+				<div class="projects">
+					<a href="./posts/2018.04-RNN/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/lstm.png">
+						<h3 style="margin-top:0px; font-size:95%;">Recurent Neural Network</h3>
+						<h4>Some very cool projects using sequence models</h4>
+					</a>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/gpu.png">
+						<h3 style="margin-top:0px; font-size:95%;">Google Colab and more</h3>
+						<h4>Free GPU and how to use it </h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<!--<div class="post">-->
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/deeplearning.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Machine Learning papers</h3>
+						<h4>Lastest research milestones and take-aways</h4>
+						<!--</div>-->
+					</a>
+				</div>
+			</div>
+			<div align="center">
+				<h2>Machine Learning things</h2>
+				<div class="projects">
+					<a href="./posts/2018.04-RNN/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
+					</a>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
-					<br style="clear:left;">
-
-					<h2>Big Data Things!</h2>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+				</div>
+			</div>
+			<div align="center">
+				<h2>Big data things</h2>
+				<div class="projects">
+					<a href="./posts/2018.04-RNN/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
-					<br style="clear:left;">
-
-					<h2>Research Things!</h2>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+				</div>
+			</div>
+			<div align="center">
+				<h2>Research things</h2>
+				<div class="projects">
+					<a href="./posts/2018.04-RNN/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/parvecs.png">
+						<h3 style="margin-top:0px; font-size:95%;">Ongoing project</h3>
+						<h4>Some very cool stuffs</h4>
 					</a>
-					<br style="clear:left;">
-
-
-					<h2>Other Exiting Things!</h2>
+				</div>
+			</div>
+			<div align="center">
+				<h2>Waitlisting things</h2>
+				<div class="projects">
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/100things_2.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Things to do before I die</h3>
+						<h4></h4>
 					</a>
-					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-
-						</div>
+					<a href="./posts/2018.04-GoogleColab/index.html">
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/100things_2.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Things to do before Lucas gets married</h3>
+						<h4></h4>
 					</a>
 					<a href="#">
-						<div class="post">
-							<img style="width:90%; height: 90%; margin-left: 5%; margin-top: 5%; margin-bottom: 5%;" src="images/post-covers/parvecs.png">
-							<h3 style="margin-top:0px; font-size:95%;">To be defined</h3>
-							<h4>Some very cool stuffs</h4>
-						</div>
+						<img  class="img-responsive center-block rounded portfolio-pic" src="images/post-covers/100things_2.jpg">
+						<h3 style="margin-top:0px; font-size:95%;">Things to learn</h3>
+						<h4></h4>
 					</a>
-					<br style="clear:left;">
+					</div>
 				</div>
 			</div>
 		</div>
