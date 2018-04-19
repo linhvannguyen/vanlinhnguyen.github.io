@@ -4,7 +4,7 @@ body {
 }
 
 .blogpage #body {
-    background: url(/assets/img/backgrounds/1.jpg) no-repeat center center fixed;
+    background: url(../images/1.jpg) no-repeat center center fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -13,8 +13,7 @@ body {
 
 
 body .contentpage {
-    background: url("../../assets/img/backgrounds/1.jpg");
-    /*background: url(/assets/img/backgrounds/1.jpg) no-repeat center center fixed;*/
+    background: url("../images/1.jpg");
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -204,10 +203,10 @@ ul.navbar-nav {
     min-height: 100%;
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    float: left;
     flex-wrap: wrap;
     align-content: center;
-    width: 70%;
+    width: 100%;
 }
 .projects a:link {
     color: black
@@ -230,10 +229,11 @@ ul.navbar-nav {
     margin-bottom:20px;
     margin-left:15px;
     margin-right:15px;
-    margin: 10px;
+    margin: 15px;
     padding: 10px;
     width: 260px;
     min-height: 330px;
+    float: left;
     border-radius: 5px;
     box-shadow: 1px 1px 10px black;
     transition: all 0.2s ease;
@@ -288,13 +288,17 @@ textheader {
     padding-right:20px
 }
 #wrap {
-    max-width: 1500px;
+    width: 83.33333333%;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
     background-color:rgba(245,245,245,.8);
     padding-top:20px;
     padding-left:20px;
-    padding-right:20px
+    padding-right:20px;
+    /*padding-bottom: 300px*/,
+    margin-bottom: -9999px;
+    padding-bottom: 25%;
 }
 
 #wrap h2{
@@ -361,42 +365,6 @@ footer { padding: 40px 0 45px 0; background: #f8f8f8; }
 @media (max-width: 415px) {
 
     h1, h2 { font-size: 36px; }
-
-}
-
-
-/* Retina-ize images/icons */
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-
-    /* logo */
-    .navbar-brand {
-        background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 102px 32px !important;
-    }
-
-}
-
-
-/* Retina-ize images/icons */
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-
-    /* logo */
-    .navbar-brand {
-        background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 102px 32px !important;
-    }
 
 }
 
