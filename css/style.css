@@ -203,7 +203,7 @@ ul.navbar-nav {
     min-height: 100%;
     overflow: hidden;
     display: flex;
-    float: left;
+    /*float: left;*/
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
@@ -296,18 +296,16 @@ textheader {
     padding-top:20px;
     padding-left:20px;
     padding-right:20px;
-    padding-bottom: 500px;
-    margin-bottom: -9999px;
-    /*padding-bottom:40%;*/
 }
 
 .project_tittle {
-    margin-top:40px;
+    margin-top:0px;
     margin-bottom:20px;
 }
+
 #wrap h2{
     text-align: center;
-    margin-top:40px;
+    margin-top:20px;
     margin-bottom:20px;
 }
 
