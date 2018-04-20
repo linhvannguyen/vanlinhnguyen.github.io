@@ -296,13 +296,19 @@ textheader {
     padding-top:20px;
     padding-left:20px;
     padding-right:20px;
-    /*padding-bottom: 300px*/,
+    padding-bottom: 500px;
     margin-bottom: -9999px;
-    padding-bottom: 25%;
+    /*padding-bottom:40%;*/
 }
 
+.project_tittle {
+    margin-top:40px;
+    margin-bottom:20px;
+}
 #wrap h2{
     text-align: center;
+    margin-top:40px;
+    margin-bottom:20px;
 }
 
 #wrap h2:after {
