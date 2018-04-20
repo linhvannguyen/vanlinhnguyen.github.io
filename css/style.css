@@ -48,7 +48,16 @@ a, a:hover, a:focus {
     font-size: 32px;
     font-weight: 300;
     color: #555;
-    line-height: 40px; }
+    line-height: 40px;
+}
+
+.container h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Verlag A', 'Verlag B';*/
+    font-size: 22px;
+    font-weight: 300;
+    color: #555;
+}
 
 img { max-width: 100%; }
 
